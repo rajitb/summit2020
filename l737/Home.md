@@ -102,7 +102,7 @@ After setting up the contribution folder and uploading the baseline assets into 
 This will publish the Contribution folder to Brand Portal. 
 * An email notification is sent to the Brand Portal users/groups who are selected at the time of creating the contribution folder. They can login to Brand Portal and contribute the requested assets
 
-![1.3-contribution-notification](assets/1.3-contribution-notification.png =600x)
+<img src="assets/1.3-contribution-notification.png" alt="1.3-contribution-notification" width="600"/>
 
 
 ### Exercise 1.4 Uploading assets into contribution folder in Brand Portal
@@ -131,7 +131,7 @@ Once the Contribution folder is published to Brand Portal, the designated users 
 * Click **Create > Files** to upload individual assets into the **New** folder 
 * Select the assets from the **Desktop > L737-Assets > Lesson 1 > Upload** folder from the local desktop
 
-![1.4-new-upload](assets/1.4-new-upload.png =600x)
+<img src="assets/1.4-new-upload.png" alt="1.4-new-upload" width="600"/>
 * Click on **Open** and then click on **Upload** button on the next dialog to successfully upload the new assets into the **New** folder on Brand Portal
 
 
@@ -146,7 +146,7 @@ After uploading the requested assets into Brand Portal, it is now time to publis
 * Select the **WKND Banners** folder and click on **Publish to AEM** 
 ![1.5-publish-aem](assets/1.5-publish-aem.png)
 * A success message will be shown for the publish request, as seen in the screen shot below
-![1.5-success](assets/1.5-success.png =350x)
+<img src="assets/1.5-success.png" alt="1.5-success" width="350"/>
 * To check the status of the, unselect the **WKND Banners** folder and click on the AEM icon <img src="assets/aem-icon.jpeg" width="23"> on the top left corner
 * Click on the Asset Contribution Status card
 * You will see the list of all the Publish to AEM requests raise in the past and their status
@@ -192,7 +192,7 @@ This exercise will cover steps to publish approved assets from AEM into Brand Po
 * On the Create Folder panel, set name & title for the folder.
 * Naming convention for this lab: ‘**L737-AttendeeName-AttendeeOrganization**’ (e.g. L737-Rajit- Adobe).
 
-![2.1-create-dialog](assets/2.1-create-dialog.png =250x)
+<img src="assets/2.1-create-dialog.png" alt="2.1-create-dialog" width="250"/>
 
 * Navigate to the newly created folder & upload sample assets into the folder using Touch UI upload or Drag & Drop feature in AEM
 
@@ -312,7 +312,7 @@ This exercise will show how to setup public folders. To make a folder public in 
 * Guest users can download the assets using download modal.
 
 
-![2.5-guest-download](assets/2.5-guest-download.png =250x)
+<img src="assets/2.5-guest-download.png" alt="2.5-guest-download" width="250"/>
 
 * To end session, Guest user can click on top right and ‘End Session’
 
@@ -346,7 +346,7 @@ You will see results pertaining to the text with which you performed the search,
 
 * With Smart Tags configured in your AEM Assets, Brand Portal supports smart tag based searches. (AEM publishes the smart tags for each asset while publishing them to Brand Portal).
 
-![3.1-smart-tags](assets/3.1-smart-tags.png =250x)
+<img src="assets/3.1-smart-tags.png" alt="3.1-smart-tags" width="250"/>
 
 * * *
 _**Note**: The **Assets Smart Tags** feature increases the accuracy and efficiency of search in AEM & Brand Portal by automatically adding metadata tags to image assets that you upload into AEM. You can also configure AEM to automatically apply tags in bulk to all assets within a folder_
@@ -361,7 +361,7 @@ _**Note**: The **Assets Smart Tags** feature increases the accuracy and efficien
 * Saved Searches can be accessed by using the Saved Searches dropbox in Filter
 2.5-saved-search
 
-![3.1-saved-search](assets/3.1-saved-search.png =300x)
+<img src="assets/3.1-saved-search.png" alt="3.1-saved-search" width="250"/>
 
 ### Exercise 3.2 Downloading from Brand Portal 
 
@@ -373,7 +373,7 @@ This exercise will cover the process and options to download assets from Brand P
 
 * Download modal will show up, which allow users to download the asset including renditions. If asset has pTiff rendition existing, then dynamic rendition download option is enabled
 
-![3.2-download-modal](assets/3.2-download-modal.png =250x)
+<img src="assets/3.2-download-modal.png" alt="3.2-download-modal" width="250"/>
 
 * Brand Portal allows user to send email notification to authorized user (including partners & vendors) about the download, user will get email notification when assets (in ZIP format) are ready to download - Optional for this lab exercise.
 
@@ -425,9 +425,9 @@ In this exercise, you will explore the key pages that are available as part of t
 
 ![4.1-search-results](assets/4.1-search-results.png)
 
-* Finally click on the Asset Share Commons logo ![4.1-asc-logo](assets/4.1-asc-logo.png =18x) at the top left corner to navigate back to the homepage
+* Finally click on the Asset Share Commons logo <img src="assets/4.1-asc-logo.png" alt="4.1-asc-logo" width="18"/> at the top left corner to navigate back to the homepage
 
-### Exercise 4.2 Homepage & Search
+### Exercise 4.2 Asset Details & Cart
 
 * Click on any of the assets to go to the asset details page
 * Notice the various tags and metadata of the asset displayed on the right pane of the screen

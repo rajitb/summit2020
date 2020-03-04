@@ -1,12 +1,12 @@
-# L754 - Digital Asset Management in an AI-First World
+ # L754 - Digital Asset Management in an AI-First World
 
 ## Table of Contents
 
 * [Lab Overview](#lab-overview)
 * [Lesson 1 - Improve discoverability through contextual Smart Tags](#lesson-1---improve-discoverability-through-contextual-Smart-Tags) 
-* [Lesson 2 - Enhanced search powered by AI](#lesson-2---enhanced-search-powered-by-ai)
+* [Lesson 2 - Enhance search using the power by AI](#lesson-2---enhance-search-using-the-powered-by-ai)
 * [Lesson 3 - Smart cropping of images & videos](#lesson-3---smart-cropping-of-images-&-videos)
-* [Lesson 4 - Use business context to improve insights & search for assets](#lesson-4---use-business-context-to-improve-insights-&-search-for-assets)
+* [Lesson 4 - Unlocking value with the power of Asset Insights](#lesson-4---Unlocking-value-with-the-power-of-Asset-Insights)
 * [Additional Resources](#additional-resources)
 
 ## Lab Overview
@@ -51,7 +51,7 @@ In order to train the Smart Tagging service with your custom tags, you have to h
     * **Username**: admin
     * **Password**: admin 
 
-* Open **Global Navigation** by clicking on the AEM Logo (![aem-logo](assets/aem-icon.jpeg =20x))the upper left corner of the screen.
+* Open **Global Navigation** by clicking on the AEM Logo <img src="assets/aem-icon.jpeg" alt="aem-logo" width="18"/> the upper left corner of the screen.
 * Select the **Tools** (_hammer_) icon from the left railing. The right panel will default to **General**.
 
 ![1.1-tagging-screen](assets/1.1-tagging-screen.png)
@@ -164,11 +164,16 @@ This exercise demonstrates the process to carry out such a training.
 * Finally click on the **Save & Close** button on the properties screen, then check the **Append** option and click on **Submit** button to save the tag successfully
 
 * * * 
-**Note**:
+
+**Note**: 
+
+<br>
+<img src="assets/bulb.png" alt="idea-bulb" width="50"/>
 
 ##### Choosing the Training Assets
 
 Training the Smart Tag service to tag images automatically with custom tags requires certain qualities in the training images
+
 * **Quantity and Size**: Use about 25-30 images per tag with a minimum of 500 pixels on the longer side
 * **Coherence**: Images tagged with the same tag should be visually similar
 * **Coverage**: Have sufficient variety in the training images in terms of color, orientation and sizes of the same subject
@@ -177,6 +182,7 @@ Training the Smart Tag service to tag images automatically with custom tags requ
 * **Union**: For those images that qualify for multiple tags, all applicable tags should be applied during training
 
 * * * 
+
 
 #### 1.1.3.	Run the Smart Tag Training workflow
 
@@ -188,7 +194,7 @@ Having setup sample assets with the necessary tags for training, the final step 
     * Go to http://localhost:4502 and enter the following credentials
     * **Username**: admin
     * **Password**: admin 
-* Open **Global Navigation** by clicking on the AEM Logo (![aem-logo](assets/aem-icon.jpeg =20x))the upper left corner of the screen.
+* Open **Global Navigation** by clicking on the AEM Logo <img src="assets/aem-icon.jpeg" alt="aem-logo" width="18"/> the upper left corner of the screen.
 * Select the **Tools** (_hammer_) icon from the left railing. . Then select the **Workflow** item in the middle pane that opens up the workflow related cards on the right pane
 
 ![1.3.1-workflow](assets/1.3.1-workflow.png)
@@ -269,7 +275,7 @@ This exercise demonstrates how the application of the previously trained custom 
 
 ##### Check properties of the assets for validating application of custom tags
 
-* Go into the **Banners-Ne**w folder in AEM by clicking on the folder name
+* Go into the **Banners-New** folder in AEM by clicking on the folder name
 * Select any asset by hovering over the asset and selecting the check mark icon
 * Click **Manage Tags** option from the menu bar at the top
 
@@ -284,55 +290,13 @@ This exercise demonstrates how the application of the previously trained custom 
 
 Any new assets ingested after the training can potentially be tagged with the custom tags based on the subject of the images being ingested.
 
-### Exercise 1.3: Enrich video assets with Smart Tags
-
-AEM not only supports automatic tagging of images, but also automatically suggests tags for video assets as well.  In this exercise, you will see the tagging of video assets in action.
-
-#### 1.3.1 Create a new folder for uploading video assets
-
-* Login to the AEM Assets Author instance 
-    * Go to http://localhost:4502 and enter the following credentials
-    * **Username**: admin
-    * **Password**: admin 
-* Go to the following location in your local AEM instance: http://localhost:4502/assets.html/content/dam 
-* Click on **Create** button on the top right corner
-* Select **Folder** in the fly-out menu
-* Provide the Title for the new folder as **Videos**
-* Click on the **Create** button to create the new folder
-
-#### 1.3.2 Enable Smart Tagging on the new folder
-
-* Select the **Videos** folder by hovering over the folder name and selecting the check mark icon
-* Click on the **Properties** link in the top menu bar to open the folder properties
-* Check the **Enable Smart Tags** option and then click on **Save & Close**
-
-#### 1.3.3 Upload test assets for auto-tagging
-
-* Go into the **Videos** folder in AEM by clicking on the folder name
-* Open Finder on the desktop
-* Navigate to **Desktop > Assets > Lesson 1 > Videos** folder
-1.3-videos
-![1.3-videos](assets/1.3-videos.png)
-* Select all the files in that folder 
-* Drag-&-drop them onto the AEM window in the browser
-* Wait for the processing of the assets to be done which may take 1-2 minutes, then refresh the page
-* Once the processing is done, all the assets are shown with a New label on the right corner
-
-#### 1.3.4 Check properties of the assets for validating application of custom tags
-
-* Go into the **Videos** folder in AEM by clicking on the folder name
-* Select any asset by hovering over the asset and selecting the check mark icon
-* Click **Manage Tags** option from the menu bar at the top
-
-![1.3-videos-tags](assets/1.3-videos-tags.png)
-
-### Exercise 1.4: Moderation of suggested tags
+### Exercise 1.3: Moderation of suggested tags
 
 While the AI algorithm does a great job of suggesting many relevant tags, the control is finally in the hands of the user to curate and refine the suggested tags further to boost the search-ability of these images that are auto-tagged by the algorithm.
 
 In this exercise, we will look at how to moderate the tags on the assets in AEM
 
-#### 1.4.1 Select folder or image for which tags need to be moderated
+#### 1.3.1 Select folder or image for which tags need to be moderated
 
 * Login to the AEM Assets Author instance 
     * Go to http://localhost:4502 and enter the following credentials
@@ -344,7 +308,7 @@ In this exercise, we will look at how to moderate the tags on the assets in AEM
 
 ![1.4-manage-tags](assets/1.4-manage-tags.png)
 
-#### 1.4.2 Purge the unwanted tags that are not relevant to the asset
+#### 1.3.2 Purge the unwanted tags that are not relevant to the asset
 
 * In the tag moderation screen, select the tags that are not relevant to the image, by clicking on them. For example, in the image below, consider the following tags are not relevant and select them by clicking on them
     * **sunrise,sunset**
@@ -352,7 +316,7 @@ In this exercise, we will look at how to moderate the tags on the assets in AEM
 
 ![1.4-purge-tags](assets/1.4-purge-tags.png)
 
-#### 1.4.3 Promote relevant tags 
+#### 1.3.3 Promote relevant tags 
 
 * We also want to indicate a higher priority to some of the more relevant tags by promoting them. We do this by selecting the relevant tags and clicking on the **Promote** button on the top menu bar. In this example asset, let us promote the following tags: 
     * **silhouette, success, achievement**
@@ -364,26 +328,46 @@ In this exercise, we will look at how to moderate the tags on the assets in AEM
 
 With these steps, you have curated the auto-suggested tags to suit your assets while promoting the more relevant tags to boost the search-ability of these images greatly.
 
-# Lesson 2 - Enhanced search powered by AI
+### Exercise 1.4: Enrich video assets with Smart Tags
+
+AEM not only supports automatic tagging of images, but also automatically suggests tags for video assets as well.  In this exercise, you will see the tagging of video assets in action.
+
+#### 1.4.1 Navigate to **Banners-New** folder created earlier
+
+* Login to the AEM Assets Author instance 
+    * Go to http://localhost:4502 and enter the following credentials
+    * **Username**: admin
+    * **Password**: admin 
+* Go to the following location in your local AEM instance: http://localhost:4502/assets.html/content/dam/wknd/banners-new
+
+
+#### 1.4.2 Validate that tags are automatically applied on the video assets
+
+* Go into the **Banners-New** folder in AEM by clicking on the folder name
+* Notice that the test assets that we uploaded earlier also included 2 video files
+* Look for the video assets with **.mp4 extension**. Hover over the file and select it
+* Click **Manage Tags** option from the menu bar at the top
+
+You will notice that the video assets have also received suggested tags based on the contents of the video using the Smart Tagging capabilities of AEM.
+
+![1.3-videos-tags](assets/1.3-videos-tags.png)
+
+# Lesson 2 - Enhance search using the power by AI
 
 ## Objective
 
-1.TBD
-2.TBD
+1. Learn how the smart tagging increases the efficacy of search in AEM
+2. Understand how to use the Visual or Similarity search feature to further improve image search in AEM
 
 
 ## Lesson Context
 
-TBD
+By running the assets through the auto-tagging process, we have brought out the ‘dark assets’ to the surface with appropriate metadata applied on them. In this exercise, let us see the effects that auto-tagging and tag moderation processes have on the search experience for the users.
  
 
 ### Exercise 2.1: Text Search
 
-#### 2.1.1 Experience the improved search efficacy with auto-tagged assets
-
-By running the assets through the auto-tagging process, we have brought out the ‘dark assets’ to the surface with appropriate metadata applied on them. In this exercise, let us see the effects that auto-tagging and tag moderation processes have on the search experience for the users.
-
-##### Navigate to the Assets folder in AEM
+#### Navigate to the Assets folder in AEM
 
 * Login to the AEM Assets Author instance 
     * Go to http://localhost:4502 and enter the following credentials
@@ -391,21 +375,20 @@ By running the assets through the auto-tagging process, we have brought out the 
     * **Password**: admin 
 * Go to the following location in your local AEM instance: http://localhost:4502/assets.html/content/dam
 
-##### Initiate a new search using one of the promoted tags
+#### Initiate a new search using one of the promoted tags
 
 * Click on the lens icon at the top right corner of the screen to open the Omnisearch
 * Enter the term **earth** in the Omnisearch and hit enter
 * The search results page will bring up the video that contains content related to earth. This asset would not have been discoverable without the automated tagging of the video
 
-![2.1-text-search](assets/2.1-text-search.png =500x)
+<img src="assets/2.1-text-search.png" alt="2.1-text-search" width="500"/> 
 
 * Next, try entering the term **achievement** in the Omnisearch and hit enter
 * The search results page will bring up the images that have a subject related to the concept of achievement, such as the image below with a person celebrating 
-2.1-achievement
 ![2.1-achievement](assets/2.1-achievement.png)
 * Notice that we had promoted the tag **achievement** earlier for this image which prompted the search engine to bring up this image in the results, despite the asset not having anything related in the name or description 
 
-##### Initiate a new search using one of the deleted tags
+#### Initiate a new search using one of the deleted tags
 
 * Click on the lens icon again to open the Omnisearch
 * Enter the term **sunrise** in the Omnisearch and hit enter
@@ -415,9 +398,7 @@ This exercise clearly demonstrates how the Tag management capabilities in AEM ad
 
 ### Exercise 2.2: Visual Search
 
-#### 2.2.1 Using visual search
-
-##### Navigate to the assets root folder and search for sunrise again
+#### Navigate to the assets root folder and search for sunrise again
 
 * Login to the AEM Assets Author instance 
     * Go to http://localhost:4502 and enter the following credentials
@@ -428,7 +409,7 @@ This exercise clearly demonstrates how the Tag management capabilities in AEM ad
 * Enter the term **sunrise** in the Omnisearch, as done earlier, and hit enter
 * You will the results with images related to sunrise
 
-##### Choose the ‘Find Similar’ action for any of the asset
+#### Choose the ‘Find Similar’ action for any of the asset
 
 * Hover on the image that you are interested in, then click on the ellipsis (…) icon to open **More actions** menu
 * For this example, we are using the image with sunrise & mountains together, hover on the image and click on the ellipsis (…)
@@ -441,6 +422,15 @@ This exercise clearly demonstrates how the Tag management capabilities in AEM ad
 ![2.2-visual-search-results](assets/2.2-visual-search-results.png) 
 
 * Also notice on the search form at the top of the results page, it now has a small thumbnail of the image against the search was triggered, to indicate what results are being shown currently
+
+* Let's try one more, go to the location http://localhost:4502/assets.html/content/dam/wknd/banners-new
+
+![2.2-visual-star-hotel](assets/2.2-visual-star-hotel.png)
+
+* Initiate a **Find similar** action on the **Thousand star Hotel** image (ADOBESTOCK_75723197.JPEG)
+* This brings up many other images with a tent, that we had uploaded in the earlier exercises
+
+![2.2-star-hotel-results](assets/2.2-star-hotel-results.png)
 
 # Lesson 3 - Smart cropping of images & videos
 
@@ -556,3 +546,22 @@ Cropping images and video can be a time-consuming and labor-intensive endeavor t
 ![3.2-device-options](assets/3.2-device-options.png)
 * While being in the developer tools mode, play the video and switch between different phone & tablet devices along with the portrait and landscape modes to see how the video adapts to the changing screen dimensions
 ![3.2-portrait-landscape](assets/3.2-portrait-landscape.png)
+
+# Lesson 4 - Unlocking value with the power of Asset Insights
+
+## Objective
+
+1. Know how Asset Insights can help uncover the ROI for the assets that your enterprise has invested in
+2. Learn how to attribute the user engagement and conversions back to the creative and content strategies
+3. Explore how you can bring back insights into AEM to increase the efficacy of search and use of assets
+
+
+## Lesson Context
+
+Asset Insights provides a capability that is unique to AEM which allows the marketers to measure the use and reach of their assets across different digital properties and thus derive insights around the efficacy of the assets. While the default Asset Insights capabilities provide a view into the usage of the assets, it is possible to extend the scope of the insights to associate the assets to business-centric metrics such as successful conversions and revenue.
+
+This lesson aims to walk you through the possible approach for enhancing the Asset Insights implementation to derive deeper insights around the use and reach of assets and thus helping the marketers fine tune their asset and content creation strategies for the future campaigns. 
+
+### Exercise 4.1: Understand Asset Insights
+
+##### 
