@@ -54,7 +54,7 @@ In order to train the Smart Tagging service with your custom tags, you have to h
 * Open **Global Navigation** by clicking on the AEM Logo <img src="assets/aem-icon.jpeg" alt="aem-logo" width="18"/> the upper left corner of the screen.
 * Select the **Tools** (_hammer_) icon from the left railing. The right panel will default to **General**.
 
-![1.1-tagging-screen](assets/1.1-tagging-screen.png)
+![1.Open-Tagging-Console](assets/1.Open-Tagging-Console.gif)
 
 * Navigate to the **Tagging** card on the right to open your **Tag Manager** console
 
@@ -85,7 +85,7 @@ This exercise demonstrates the process to carry out such a training.
 * Click on **Create** button on the top right corner
 * Select **Folder** in the fly-out menu
 
-![1.1-create-folder](assets/1.1-create-folder.png)
+![1.1-create-folder](assets/2.Create-Folder-Enable-ST.gif)
 
 * Provide the Title for the new folder as **Banners**
 * Click on the **Create** button to create the new folder
@@ -113,7 +113,7 @@ This exercise demonstrates the process to carry out such a training.
 * Open Finder on the desktop
 * Navigate to **Desktop > Assets > Lesson 1 > Train > Camping** folder 
 
-![1.1-train-camping](assets/1.1-train-camping.png)
+![3.Upload-Camping-Images](assets/3.Upload-Camping-Images.gif)
 
 * Select all the files in that folder 
 * Drag-&-drop them onto the AEM window in the browser
@@ -126,6 +126,7 @@ This exercise demonstrates the process to carry out such a training.
 * Click on **Select All** button on the top menu bar next to the Create button
 
 ![1.1-camping-selectall](assets/1.1-camping-selectall.png)
+
 
 * In the properties screen, open the Tag browser by clicking on the check mark under **Tags** section
 * Navigate to **WKND > Activity > Camping** in the tag hierarchy and select the tag, then click on **Select** button to apply the tag
@@ -184,7 +185,7 @@ Training the Smart Tag service to tag images automatically with custom tags requ
 * * * 
 
 
-#### 1.1.3.	Run the Smart Tag Training workflow
+#### 1.1.3.    Run the Smart Tag Training workflow
 
 Having setup sample assets with the necessary tags for training, the final step for successfully completing the training process is to run those sample assets through the training workflow so that the Smart Tagging service can process and learn the custom tags.
 
@@ -362,7 +363,7 @@ You will notice that the video assets have also received suggested tags based on
 
 ## Lesson Context
 
-By running the assets through the auto-tagging process, we have brought out the ‘dark assets’ to the surface with appropriate metadata applied on them. In this exercise, let us see the effects that auto-tagging and tag moderation processes have on the search experience for the users.
+By running the assets through the auto-tagging process, we have brought out the 'dark assets' to the surface with appropriate metadata applied on them. In this exercise, let us see the effects that auto-tagging and tag moderation processes have on the search experience for the users.
  
 
 ### Exercise 2.1: Text Search
@@ -409,7 +410,7 @@ This exercise clearly demonstrates how the Tag management capabilities in AEM ad
 * Enter the term **sunrise** in the Omnisearch, as done earlier, and hit enter
 * You will the results with images related to sunrise
 
-#### Choose the ‘Find Similar’ action for any of the asset
+#### Choose the 'Find Similar' action for any of the asset
 
 * Hover on the image that you are interested in, then click on the ellipsis (…) icon to open **More actions** menu
 * For this example, we are using the image with sunrise & mountains together, hover on the image and click on the ellipsis (…)
@@ -436,13 +437,13 @@ This exercise clearly demonstrates how the Tag management capabilities in AEM ad
 
 ## Objective
 
-1.	Explore how AEM uses AI powered Smart Crop algorithms to automatically crop images & videos based on the subject of the assets
-2.	Understand how the Smart Crop capabilities can be used while authoring a page in AEM
+1.    Explore how AEM uses AI powered Smart Crop algorithms to automatically crop images & videos based on the subject of the assets
+2.    Understand how the Smart Crop capabilities can be used while authoring a page in AEM
 
 
 ## Lesson Context
 
-Cropping images and video can be a time-consuming and labor-intensive endeavor that requires drawing, measuring, and cutting. With smart crop, you can compress workflows and eliminate hours of tedious work. Powered by Adobe Sensei, Adobe’s AI and machine learning framework, it automatically detects and crops the focal point in any image or video and captures the intended point-of-interest, regardless of screen size. This lesson will walk you through the process for using smart cropping your images & videos and use them in your sites & other digital channels.
+Cropping images and video can be a time-consuming and labor-intensive endeavor that requires drawing, measuring, and cutting. With smart crop, you can compress workflows and eliminate hours of tedious work. Powered by Adobe Sensei, Adobe's AI and machine learning framework, it automatically detects and crops the focal point in any image or video and captures the intended point-of-interest, regardless of screen size. This lesson will walk you through the process for using smart cropping your images & videos and use them in your sites & other digital channels.
  
 
 ### Exercise 3.1: Smart Crop for Images
